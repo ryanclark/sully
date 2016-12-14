@@ -130,4 +130,3 @@ export class SullyMessage {
     process.stdout.write(message + '\n');
   }
 }
-
