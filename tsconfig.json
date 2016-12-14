@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "stripInternal": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es5",
+    "skipLibCheck": true
+  },
+  "files": [
+    "index.ts"
+  ]
+}

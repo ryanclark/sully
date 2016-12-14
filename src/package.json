@@ -1,0 +1,17 @@
+{
+  "name": "sully",
+  "version": "0.0.0",
+  "description": "reporter for node cli apps",
+  "main": "bundle/sully.umd.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "author": "hay",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/rynclark/sully.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "ansi-styles": "^2.2.1"
+  }
+}
