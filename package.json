@@ -18,7 +18,7 @@
     "lint": "tslint --project tsconfig.json",
     "postbundle": "cd dist",
     "prestart": "yarn run clean && yarn run copy",
-    "test": "TS_NODE_PROJECT=tsconfig.test.json mocha --compilers ts:ts-node/register"
+    "test": "yarn run lint && TS_NODE_PROJECT=tsconfig.test.json mocha --compilers ts:ts-node/register"
   },
   "devDependencies": {
     "@types/ansi-styles": "^2.0.30",
